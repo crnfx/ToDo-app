@@ -2,14 +2,12 @@
     let listArray = [],
         listName = '';
 
-    // создаем и возвращаем заголовок приложения
     function createAppTitle(title) {
         let appTitle = document.createElement('h2');
         appTitle.innerHTML = title;
         return appTitle;
     }
 
-    // создаем и возвращаем форму для создания дела
     function createTodoItemForm() {
         let form = document.createElement('form');
         let input = document.createElement('input');
